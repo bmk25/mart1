@@ -1,0 +1,49 @@
+
+
+// for intialising the api no need when we download the folder it is only for starting purpose
+npm init -y 
+
+
+// 
+npm i express nodemon mysql
+
+---------------------------------------------------
+
+// for hash the password
+npm i bcryptjs 
+
+-----------------------------------------------
+
+// for storing the user access token
+npm i cookie-parser
+
+----------------------------------------------
+
+// for the managing the web access token 
+npm i jsonwebtoken
+--------------------------------------------
+
+// for connecting the frontend 
+npm i cors 
+
+--------------------------------------
+// for the dates 
+npm i moment 
+
+-------------------------------------
+
+
+// -> we using ((--react-query--)) for simplyfying the query 
+
+---------------------------------------------
+// -> react-router-dom for routes the the browser
+
+----------------------------------------------
+
+//block application 
+// for uploading the files in the server we are using the multer
+
+
+npm i multer 
+
+

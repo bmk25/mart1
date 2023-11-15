@@ -1,0 +1,79 @@
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 0px 20px;
+  position: sticky;
+  top: 0; /* Stick to the top */
+  z-index: 100; /* Ensure it's above other content */
+}
+
+/* Hide the scroll bar */
+.navbar::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar-left {
+  flex: 1;
+}
+.navbar-left1 {
+  flex: 1;
+}
+
+.name {
+  font-size: 30px;
+}
+
+/* .navbar-center {
+  flex: 2;
+  text-align: center;
+  color: aqua;
+} */
+.navbar-center {
+  flex: 2;
+  text-align: center;
+  color:lightseagreen;
+  font-family: CustomFont, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Add a hover effect */
+.navbar-center:hover {
+  color:aliceblue; /* Change color on hover */
+  transform: scale(1.1); /* Scale the text on hover */
+}
+
+
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.report-button,
+.logout-button {
+  background-color:lightseagreen;
+  color:black;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-size: 16px;
+  margin: 0 7px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.report-button:hover,
+.report-button1:hover,
+.logout-button:hover {
+  background-color:aliceblue;
+  transform: scale(1.1);
+}

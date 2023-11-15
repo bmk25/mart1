@@ -1,0 +1,102 @@
+.register {
+  height: 100vh;
+  background-color:  rgba(35, 45, 102, 0.588);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 50%;
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    min-height: 100px;
+    overflow: hidden;    
+    flex-direction: row-reverse;
+    .left {
+      flex: 1;
+      background: linear-gradient(rgba(53, 73, 146, 0.5), rgba(8, 2, 19, 0.5)),
+        url("https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600")
+          center;
+      background-size: cover;
+      padding: 60px;
+      display: flex;
+      border-radius:30px;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+
+      h1 {
+        font-size: 50px;
+        line-height: 30px;
+      }
+      
+      p {
+      }
+
+      span {
+        font-size: 16px;
+      }
+      
+      button {
+        width: 100px;
+        padding: 10px;
+        border-radius: none;
+        background-color:  rgba(169, 229, 232, 0.588);
+        color: rebeccapurple;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+
+      h1 {
+      color: #555;
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+        input {
+        border: none;
+        border-bottom: 1px solid lightgray;
+        padding: 20px 10px;
+        }
+        select {
+          border: none;
+          border-bottom: 1px solid lightgray;
+          padding: 10px 10px;
+          font-size: 16px;
+          width: 100%;// Adjust width as needed
+          background-color: white; // Change background color if needed
+          color: #555;
+          cursor: pointer;
+        }
+        
+        button {
+          width: 90px;
+          padding: 10px;
+          border-radius: none;
+          background-color: #938eef;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+          gap: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

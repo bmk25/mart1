@@ -1,0 +1,54 @@
+// @import "../../style.scss";
+
+// .home {
+//   @include themify($themes) {
+//     position: sticky;
+//     overflow: scroll;
+//     top: 30px;
+//     height: calc(100vh - 50px); // for the navbar
+//     background-color: themed("bgSoft");
+//     padding: 20px 50px;
+
+    
+//     @include mobile {
+//       padding: 10px;
+//     }
+
+//     @include tablet{
+//       padding: 20px;
+//     }
+
+
+    // &::-webkit-scrollbar{// for disable the scroll bar
+    //   display: none;
+    // }
+
+
+//  }
+// }
+
+@import "../../style.scss";
+
+.home{
+  @include themify($themes) {
+    position: sticky;
+    overflow: scroll;
+    padding: 20px 70px;
+    height: calc(100vh - 50px); // for the navbar
+
+    background-color: themed("bgSoft");
+    // min-height: 100vh;
+
+    @include mobile {
+      padding: 10px;
+    }
+
+    @include tablet{
+      padding: 20px;
+    }
+
+    &::-webkit-scrollbar{// for disable the scroll bar
+      display: none;
+    }
+  }
+ }
